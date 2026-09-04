@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Open-source UPSC CSE study toolkit">
+  <title>UPSC CSE Study Toolkit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">OPEN-SOURCE EDUCATION</p>
+      <h1>UPSC CSE Study Toolkit</h1>
+      <p class="subtitle">A practical, community-maintained toolkit for syllabus mapping, revision and answer writing.</p>
+      <div class="hero-actions">
+        <a href="#syllabus" class="button primary">Explore syllabus</a>
+        <a href="#answer" class="button secondary">Answer framework</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="stats" aria-label="Toolkit overview">
+      <div class="card"><strong id="subjectCount">—</strong><span>subjects</span></div>
+      <div class="card"><strong id="topicCount">—</strong><span>sample topics</span></div>
+      <div class="card"><strong id="questionCount">—</strong><span>sample questions</span></div>
+    </section>
+
+    <section id="syllabus" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 · MAP</p>
+          <h2>Syllabus explorer</h2>
+        </div>
+        <label>
+          Search
+          <input id="search" type="search" placeholder="e.g. Fundamental Rights">
+        </label>
+      </div>
+      <div id="syllabusGrid" class="grid"></div>
+    </section>
+
+    <section id="answer" class="section">
+      <p class="eyebrow">02 · WRITE</p>
+      <h2>Mains answer framework</h2>
+      <div class="framework">
+        <article><span>1</span><h3>Decode</h3><p>Identify the directive, scope, stakeholders, and keywords in the question.</p></article>
+        <article><span>2</span><h3>Structure</h3><p>Build a short introduction, thematic body, balanced analysis, and focused conclusion.</p></article>
+        <article><span>3</span><h3>Substantiate</h3><p>Use constitutional articles, committees, judgments, examples, data, maps or diagrams where relevant.</p></article>
+        <article><span>4</span><h3>Balance</h3><p>Show multiple dimensions and acknowledge trade-offs instead of presenting one-sided claims.</p></article>
+      </div>
+    </section>
+
+    <section id="questions" class="section">
+      <p class="eyebrow">03 · PRACTICE</p>
+      <h2>Question bank</h2>
+      <div id="questionList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Built as an independent open-source learning project.</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
