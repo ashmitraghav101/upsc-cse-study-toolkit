@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Indian Polity",
+    "topics": [
+      "Constitutional framework",
+      "Fundamental Rights",
+      "DPSP and Fundamental Duties",
+      "Parliament and legislative procedure",
+      "Judiciary and judicial review",
+      "Federalism and Centre-State relations"
+    ]
+  },
+  {
+    "name": "Modern History",
+    "topics": [
+      "Revolt of 1857",
+      "Socio-religious reform movements",
+      "Indian National Congress",
+      "Gandhian phase",
+      "Constitutional developments",
+      "Integration after independence"
+    ]
+  },
+  {
+    "name": "Geography",
+    "topics": [
+      "Physical geography",
+      "Indian monsoon",
+      "Rivers and drainage",
+      "Agriculture",
+      "Mineral and energy resources",
+      "Human geography"
+    ]
+  },
+  {
+    "name": "Economy",
+    "topics": [
+      "Growth and development",
+      "Inflation",
+      "Fiscal policy",
+      "Monetary policy",
+      "Banking and financial system",
+      "External sector"
+    ]
+  },
+  {
+    "name": "Environment",
+    "topics": [
+      "Ecosystems",
+      "Biodiversity",
+      "Climate change",
+      "Environmental governance",
+      "Pollution",
+      "Conservation"
+    ]
+  },
+  {
+    "name": "Governance",
+    "topics": [
+      "Transparency and accountability",
+      "E-governance",
+      "Civil services",
+      "Social justice",
+      "Citizen participation",
+      "Institutional reforms"
+    ]
+  }
+]
